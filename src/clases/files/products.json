@@ -1,0 +1,46 @@
+[
+	{
+		"title": "Guitar",
+		"description": "Acustic",
+		"price": 2200,
+		"thumbnail": [
+			"https://urguitars.com/wp-content/uploads/2016/04/GD51CE-NAT-scaled.jpeg"
+		],
+		"code": "gui01",
+		"stock": 10,
+		"id": "7113c67f-9126-4675-a19a-e21cf0ef0399"
+	},
+	{
+		"title": "Clavijero",
+		"description": "Marfil",
+		"price": 250,
+		"thumbnail": [
+			"https://urguitars.com/wp-content/uploads/2016/04/GD51.png"
+		],
+		"code": "cla01",
+		"stock": 10,
+		"id": "c4eef72f-887a-4427-ae8c-27c7a57ae0a6"
+	},
+	{
+		"title": "Puente",
+		"description": "Madera",
+		"price": 50,
+		"thumbnail": [
+			"https://urguitars.com/wp-content/uploads/2016/04/GD51.2.png"
+		],
+		"code": "pu01",
+		"stock": 10,
+		"id": "13e200f2-7bcf-4a64-9ac3-37efc29df1c6"
+	},
+	{
+		"title": "Amplificador",
+		"description": "Vox",
+		"price": 3000,
+		"thumbnail": [
+			"https://urguitars.com/wp-content/uploads/2018/10/AC15HW_Gallery_800x600_1.jpg"
+		],
+		"code": "amp01",
+		"stock": 10,
+		"id": "6e0cfcf8-677e-44a9-b6ea-d4bdeb0f5cdf"
+	}
+]
