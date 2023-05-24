@@ -42,5 +42,60 @@
 		"code": "amp01",
 		"stock": 10,
 		"id": "6e0cfcf8-677e-44a9-b6ea-d4bdeb0f5cdf"
+	},
+	{
+		"title": "Pedal",
+		"description": "Vox",
+		"price": 3000,
+		"thumbnail": [
+			"https://www.heavenimagenes.com/heavencommerce/b23e72e1-40ba-4adb-9dc3-7ee3d3a63b35/images/v2/MARSHALL/23601_medium.jpg"
+		],
+		"code": "amp01",
+		"stock": 10,
+		"id": "65c94878-0bf1-4c29-9648-ae93cc1408ac"
+	},
+	{
+		"title": "Guitarra",
+		"description": "Acustica",
+		"price": 4000,
+		"thumbnail": [
+			"https://cf1.zzounds.com/media/productmedia/fit,600by600/quality,85/AEL1512ETBS-8cb6a137e6912d158c0e2413d516eff0.jpg"
+		],
+		"code": "amp01",
+		"stock": 10,
+		"id": "fca0c266-4072-4dd8-a315-7eb9209de62a"
+	},
+	{
+		"title": "Funda Guitarra",
+		"description": "Negra",
+		"price": 4000,
+		"thumbnail": [
+			"https://cf1.zzounds.com/media/productmedia/fit,600by600/quality,85/1SKB-GB18ClosedFront_clipped-050ea9e75095ae1dfb42d203534f295f.JPG"
+		],
+		"code": "fun01",
+		"stock": 10,
+		"id": "4da87324-f761-49cb-9945-ef83d3acd8a3"
+	},
+	{
+		"title": "Pie Guitarra",
+		"description": "Negra",
+		"price": 500,
+		"thumbnail": [
+			"https://cf1.zzounds.com/media/productmedia/fit,600by600/quality,85/xcg_0016-5ad219fdd5619681cb5ca063c6aeae6c.jpg"
+		],
+		"code": "pie01",
+		"stock": 10,
+		"id": "fcdf3f5e-3edd-4838-9e0c-f8c4fa6e50c4"
+	},
+	{
+		"title": "Capo Guitarra",
+		"description": "Metal",
+		"price": 500,
+		"thumbnail": [
+			"https://cf1.zzounds.com/media/productmedia/fit,600by600/quality,85/xcg_0016-5ad219fdd5619681cb5ca063c6aeae6c.jpg"
+		],
+		"code": "capo01",
+		"stock": 10,
+		"id": "6a2e96bc-f90e-40a2-be1e-e08f782e37b5"
 	}
 ]
