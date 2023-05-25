@@ -17,14 +17,15 @@ router.get('/:cid', async (req, res) => {
 })
 
 router.post('/', async (req, res) => {
-    const products = req.body;
-    res.send(await cart.addCarts(products))
+    await cart.addCarts();
+    res.send({status: "success"})
 })
 
 router.post('/:cid/products/:pid', async (req, res) => {
     const idCart = req.params.cid;
     const idProduct = req.params.pid;
-    res.send(await cart.addProductInCart(idCart, idProduct))
+    await cart.addProductInCart(idCart, idProduct)
+    res.send({status: "success"})
 })
 
 export default router;

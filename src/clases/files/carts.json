@@ -4,13 +4,17 @@
 		"products": [
 			{
 				"id": "6e0cfcf8-677e-44a9-b6ea-d4bdeb0f5cdf",
-				"quantity": 1
+				"quantity": 2
 			},
 			{
 				"id": "13e200f2-7bcf-4a64-9ac3-37efc29df1c6",
 				"quantity": 2
 			}
 		]
+	},
+	{
+		"id": "bdf3a090-4d2a-4496-a922-b1660fd6666a",
+		"products": []
 	},
 	{
 		"id": "4f796666-0680-4aa0-9e63-c61a8afbab8d",
