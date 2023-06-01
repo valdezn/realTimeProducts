@@ -21,7 +21,7 @@ router.post('/', async (req, res) => {
     res.send({status: "success"})
 })
 
-router.post('/:cid/products/:pid', async (req, res) => {
+router.post('/:cid/product/:pid', async (req, res) => {
     const idCart = req.params.cid;
     const idProduct = req.params.pid;
     await cart.addProductInCart(idCart, idProduct)
