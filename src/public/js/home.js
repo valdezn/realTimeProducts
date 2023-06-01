@@ -23,7 +23,7 @@ addProductBtn.addEventListener('click', function(e) {
 });
 
 //boton delete
-deleteBtn.addEventListener("click", function(e) {
+deleteBtn.addEventListener("click", (e) => {
     
     e.preventDefault();
     let productId = document.getElementById("productId");
@@ -32,11 +32,11 @@ deleteBtn.addEventListener("click", function(e) {
     productId.value = '';
   });
 
-  socket.on("updatedProducts", function(products) {
+  socket.on("updatedProducts", (products) => {
     const productList = document.getElementById("product-list");
     productList.innerHTML = ""; // Limpio la lista actual
   
-    products.forEach(function(product) {
+    products.forEach((product) => {
       const li = document.createElement("li");
       const title = document.createElement("h3");
       title.textContent = product.title;

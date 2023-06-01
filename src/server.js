@@ -26,11 +26,11 @@ const socketServer = new Server(expressServer);
 socketServer.on("connection", (socket) => {
   console.log("conected " + socket.id)
   //recibo el producto nuevo 
-  socket.on('addProduct', async function(product) {     
+  socket.on('addProduct', async (product) => {     
       const result = await productsManager.addProducts(product);
     });
     //recibo el id del producto a eliminar
-    socket.on("deleteProduct", async function(product) {  
+    socket.on("deleteProduct", async (product) => {  
       const productId = product
       const result = await productsManager.deleteProduct(productId);
       
